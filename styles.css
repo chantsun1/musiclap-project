@@ -1,0 +1,157 @@
+body
+{background-color:#000000;
+color:#FFFFFF;}
+
+:link{color:#FFFFFF;text-decoration:none}
+:link:hover{color:#FF0000;text-decoration:none}
+:visited{color:#FFFFFF;text-decoration:none}
+:visited:hover{color:#FF0000;text-decoration:none}
+
+header{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#000000;
+	text-align:left;
+}
+
+.cover{
+	position:absolute;
+	left:0px;
+	top:0px;
+	z-index:-1;
+}
+img.cov{height:150px}
+
+.nav_h{
+	background-color:#333333;
+	position:absolute;
+	margin: -10px;
+	top:151px;
+	width:100%;
+	height:20px;
+	padding:5px;
+	border-bottom:2px solid white;
+	border-top:2px solid white;
+	z-index:-1;
+	left: 5px;
+}
+
+nav{
+	font-weight:bold;
+	margin-top:80px;
+	margin-left:-20px;
+	width:230px;
+	height:100%;
+	float:left;
+	position:absolute;
+}
+nav li{
+	margin-left:-10px;
+	margin-top:10px;
+	margin-bottom:5px;
+	margin-right:5px;
+	padding:5px;
+	width:150px;
+	background-color:#000000;
+	border:5px double white;
+	list-style:none;
+	font-weight:normal;
+}
+
+.cart{
+	text-align:right;
+	position:absolute;
+	right:5px;
+	top:125px;
+	width:300px;
+	float:right;
+	margin-right:20px;
+	font-style:bold;
+	z-index:1;
+}
+.cart #shoppinglist {
+	position: absolute;
+	right:0px;
+	top:25px;
+	float:right;
+	margin-right:20px;
+	font-style:bold;
+	z-index:1;
+}
+
+
+.cart:hover h4{
+	color:#FF0000;
+}
+
+.cart ul{
+	display:none;
+	padding:5px;
+	text-align:right;
+	list-style:none;
+	position:absolute;
+	right:0px;
+	background-color: #000000;
+	border:5px double white;
+}
+.cart:hover ul{
+	display:block;
+}
+
+.quant{
+	width:30px;
+	text-align:right; 
+}
+
+ul.tableless{
+	position:absolute;
+	float:left;
+	top:130px;
+	margin-left:200px;
+	list-style:none;
+	overflow:auto;
+	font-style:italic;
+}
+ul.tableless li{
+	border:5px double #333333;
+	margin:5px;
+	padding:5px;
+	width:180px;
+	text-align:center;
+	font-style:normal;
+	margin-top:30px;
+	float:left;
+}
+
+ul.tableless li:hover{
+	border:5px double #FF0000;
+}
+
+img.thumbn{height:150px}
+
+ul.content{	
+	position:absolute;
+	float:left;
+	top:130px;
+	margin-left:200px;
+	list-style:none;
+	overflow:auto;
+	font-style:italic;
+}
+ul.content li{
+	font-style:normal;
+	margin-top:20px;
+	margin-right:50px;
+	line-height:200%;
+	overflow:hidden; 
+	padding: 0px;
+}
+ul.content li.img{
+	border:5px double #333333;
+	float:left;
+	width:300px;
+	height:300px;
+}
+
+img.large{
+	width:300px;
+}
